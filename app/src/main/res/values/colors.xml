@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="my_light_primary">#935d19</color> <!-- Exemple de couleur primaire -->
+    <color name="my_light_secondary">#FFAAAAAA</color> <!-- Couleur secondaire, à définir -->
+    <color name="my_light_status_bar">#935d19</color> <!-- Couleur pour la barre d'état en mode clair -->
+    <color name="my_dark_status_bar">#935d19</color> <!-- Couleur pour la barre d'état en mode sombre -->
+</resources>

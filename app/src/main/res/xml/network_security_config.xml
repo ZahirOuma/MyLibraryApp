@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- Utilisez * pour autoriser tous les domaines -->
+        <domain includeSubdomains="true">* </domain>
+    </domain-config>
+
+    <!-- Permettre tout le trafic en clair pour des tests (optionnel) -->
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

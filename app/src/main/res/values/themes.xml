@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Projet" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/my_light_primary</item>
+        <item name="colorSecondary">@color/my_light_secondary</item> <!-- Assurez-vous que cette couleur existe -->
+        <item name="statusBarColor">@color/my_light_status_bar</item> <!-- Couleur de la barre d'état -->
+        <item name="android:statusBarColor">@color/my_light_status_bar</item> <!-- Couleur pour les versions antérieures -->
+    </style>
+
+    <style name="Theme.Projet" parent="Base.Theme.Projet">
+        <!-- Customize your dark theme here. -->
+        <item name="statusBarColor">@color/my_dark_status_bar</item> <!-- Couleur de la barre d'état pour le thème sombre -->
+        <item name="android:statusBarColor">@color/my_dark_status_bar</item> <!-- Pour les versions antérieures -->
+    </style>
+</resources>

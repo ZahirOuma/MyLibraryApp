@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/dialogAdd"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/titreEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Titre" />
+
+    <EditText
+        android:id="@+id/auteurEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Auteur" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Genre :"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"/>
+
+    <Spinner
+        android:id="@+id/typeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/dateEditionEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date d'édition" />
+
+    <EditText
+        android:id="@+id/resumeEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Résumé" />
+
+    <EditText
+        android:id="@+id/imageUrlEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="URL de l'image" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Annuler"
+            app:backgroundTint="#935d19"
+
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ajouter"
+            app:backgroundTint="#935d19"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="8dp"/>
+    </LinearLayout>
+</LinearLayout>
